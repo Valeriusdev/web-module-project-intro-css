@@ -1,0 +1,20 @@
+a {
+    border: 2px solid red;
+    padding: 60 px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+
+.idA{
+    background: blue;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.myimg {
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vw;
+}
