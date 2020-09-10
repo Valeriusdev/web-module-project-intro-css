@@ -1,20 +1,73 @@
+@font-face {
+    font-family: "Chelsea";
+    src: url(https://fonts.google.com/specimen/Chelsea+Market?selection.family=Chelsea+Market)
+}
+
 a {
+    color: white;
     border: 2px solid red;
     padding: 60 px;
     border-radius: 10px;
     display: inline-block;
-    
 }
 
-.idA{
-    background: blue;
+.Plan{
+    background: #FF764E;
     height: 40px;
     margin: 20px;
     padding: 5px;
 }
+.Learn{ 
+            background:#5ED3EB;
+        height: 40px;
+        margin: 20px;
+        padding: 5px;    
+}
+.Get {    
+    background:#FFCD69;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;    
+}
+h1{
+    font-family: "Chelsea";
+    font-size: 50px;
+}
 
-.myimg {
+
+.headerimg {
     border-radius: 50%;
-    height: 20vh;
-    width: 20vw;
+    width: 200px;
+}
+
+.firstsection{
+text-align: center;
+display: inline-block;
+
+.aboutpark{
+    color: white;
+    background: #DDB9A3;
+    text-align: center;
+}
+
+}
+.fireimg{
+    height: 150px;
+    width: 150px;
+    display: center;
+}
+.carimg{
+    height: 150px;
+    width: 150px;
+    display: center;
+}
+
+.footerimg{
+    height: 300px;
+    width: 100%;
+    display: center;
+}
+
+footer{
+    background: #F9E7DC
 }
