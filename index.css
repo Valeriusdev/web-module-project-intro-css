@@ -1,14 +1,22 @@
-@font-face {
-    font-family: "Chelsea";
-    src: url(https://fonts.google.com/specimen/Chelsea+Market?selection.family=Chelsea+Market)
+*{
+    font-family: "Roboto Mono";
+}
+nav {
+    margin: 0 auto;
+    width: 80%;
+    height: 2rem;
 }
 
 a {
     color: white;
-    border: 2px solid red;
+    border: 2px solid white;
     padding: 60 px;
     border-radius: 10px;
     display: inline-block;
+    text-decoration: none;
+    width: 10%;
+    vertical-align: top;
+    text-align: center;
 }
 
 .Plan{
@@ -18,9 +26,9 @@ a {
     padding: 5px;
 }
 .Learn{ 
-            background:#5ED3EB;
+        background:#5ED3EB;
         height: 40px;
-        margin: 20px;
+        margin: 25px 25%;
         padding: 5px;    
 }
 .Get {    
@@ -30,36 +38,54 @@ a {
     padding: 5px;    
 }
 h1{
-    font-family: "Chelsea";
+    font-family: "Chelsea Market";
     font-size: 50px;
+}
+
+.top{
+    width: 80%;
+    margin: 0 auto;
 }
 
 
 .headerimg {
     border-radius: 50%;
-    width: 200px;
+    width: 170px;
 }
 
 .firstsection{
 text-align: center;
-display: inline-block;
+display: inline-block;}
 
 .aboutpark{
     color: white;
     background: #DDB9A3;
     text-align: center;
+    padding: 2%;
 }
 
+.aboutpark2{
+    text-align: center; 
+    width: 300px; 
+    display: block; 
+    margin: 2% auto; 
 }
+
+span{
+    font-weight: bold;
+}
+
 .fireimg{
-    height: 150px;
-    width: 150px;
-    display: center;
+    height: 120px;
+    width: 120px;
+    margin: 2% auto;
+    display: block;
 }
 .carimg{
-    height: 150px;
-    width: 150px;
-    display: center;
+    height: 120px;
+    width: 120px;
+    margin: 2% auto;
+    display: block;
 }
 
 .footerimg{
